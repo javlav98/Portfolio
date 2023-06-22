@@ -1,15 +1,16 @@
 import React from "react";
 import { Outlet, Link } from "react-router-dom";
 
+import './Layout.css'
 
 export default function Layout() {
   return (
     <div className="navContainer">
-      <nav>
+      <nav className="navBar">
+        <h2>
+          <Link to="/">Javier Lavin</Link>
+        </h2>
         <ul>
-            <h2>
-                <Link to="/">Javier Lavin</Link>
-            </h2>
             <li className="Home">
                 <Link to="/">Home</Link>
             </li>
