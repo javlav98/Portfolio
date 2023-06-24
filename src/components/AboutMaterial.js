@@ -1,26 +1,18 @@
 import React from 'react'
+import './AboutMaterial.css'
 
 function AboutHeader() {
   return (
-    <div>
+    <div className='titleContainer'>
       <h1>About me</h1>
     </div>
   )
 }
 
-function AboutImage() {
+function AboutImageBody() {
   return (
-    <div>
-      <img src="6C95D768-EFB4-4E3C-80BF-01A1411C8442_1_105_c.jpeg" alt="placeholder" 
-      width="300"
-      />
-    </div>
-  )
-}
-
-function AboutBody() {
-  return (
-    <div>
+    <div className='pContainer'>
+      <img src="6C95D768-EFB4-4E3C-80BF-01A1411C8442_1_105_c.jpeg" alt="placeholder" width='300' className='pic'/>
       <p>
         Hello, I'm Javier Lavin, a Web Developer from the Southern California region based 
         in Riversdie, CA. I graduated from the University of California, Irvine with a degree 
@@ -38,7 +30,7 @@ function AboutBody() {
 
 function SkillsHeader() {
   return (
-    <div>
+    <div className='skillsheaderConatiner'>
       <h1>Skills</h1>
     </div>
   )
@@ -47,20 +39,14 @@ function SkillsHeader() {
 function SkillsBody() {
   return (
     <div>
-      <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>Node.js</li>
-        <li>Express.js</li>
-        <li>React.js</li>
-        <li>MySQL</li>
-        <li>Git</li>
-        <li>GitHub</li>
-        <li>Bootstrap</li>
-        <li>APIs</li>
-        <li>JSON</li>
-        <li>Command Line</li>
+      <ul className='list'>
+        <li className='list1'><img src='HTMLlogo.png' className='img1'></img>HTML</li>
+        <li className='list2'><img src='CSSlogo.png' className='img1'></img>CSS</li>
+        <li className='list3'><img src='JSlogo.png' className='img1'></img>JavaScript</li>
+        <li className='list4'><img src='NODElogo.png' className='img1'></img>Node.js</li>
+        <li className='list5'><img src='REACTlogo.png' className='img1'></img>React.js</li>
+        <li className='list6'><img src='SQLlogo.png' className='img1'></img>MySQL</li>
+        <li className='list7'><img src='GITlogo.png' className='img1'></img>Git</li>
       </ul>
     </div>
   )
@@ -69,9 +55,8 @@ function SkillsBody() {
 export default function AboutMaterial () {
   return (
     <div>
-      <AboutImage />
       <AboutHeader />
-      <AboutBody />
+      <AboutImageBody />
       <SkillsHeader />
       <SkillsBody />
     </div>

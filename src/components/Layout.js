@@ -1,14 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import { Outlet, Link } from "react-router-dom";
 
 import './Layout.css'
 
 export default function Layout() {
+  const [bgColor, setbgColor] = useState('black'); 
+  
   return (
+    <div style={{background: bgColor}}>
     <div className="navContainer">
       <nav className="navBar">
         <h2>
-          <Link to="/">Javier Lavin</Link>
+          <Link to="/"> Javier Lavin</Link>
         </h2>
         <ul>
             <li className="Home">
@@ -26,6 +29,7 @@ export default function Layout() {
         </ul>
       </nav>
       <Outlet />
+    </div>
     </div>
   );
 }

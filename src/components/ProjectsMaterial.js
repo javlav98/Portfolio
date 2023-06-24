@@ -24,7 +24,7 @@ function AllProjects() {
           <p class="project-details">
             This is Just a simple calculator created with HTML, CSS and Vanilla JavaScript
           </p>
-          <a href="https://javlav98.github.io/" target="_blank" class="project-link">Check it Out</a>
+          <a href="https://javlav98.github.io/" target="" class="project-link">Check it Out</a>
         </div>
 
         {/* Project Card 2*/}
@@ -41,7 +41,7 @@ function AllProjects() {
             This is just a virtual keyboard created with HTML, CSS and Vanilla JavaScript. 
             It has a dark mode and a light mode and is web responsive.
           </p>
-          <a href="#" target="_blank" class="project-link">Check it Out</a>
+          <a href="#" target="" class="project-link">Check it Out</a>
         </div>
 
         {/* Project Card 3*/}
@@ -57,7 +57,7 @@ function AllProjects() {
           <p class="project-details">
             I just replicated the DropBox Login Page with HTML and CSS. It is web responsive.
           </p>
-          <a href="#" target="_blank" class="project-link">Check it Out</a>
+          <a href="#" target="" class="project-link">Check it Out</a>
         </div>
       </div>
 

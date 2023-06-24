@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=DM+Sans&family=Gloria+Hallelujah&family=Orbitron&family=Play&family=Press+Start+2P&family=Righteous&family=Space+Mono&display=swap');
+
+.titleContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    font-family: 'dm sans', sans-serif;
+    color: white;
+}
+.pic {
+    width: 20%;
+    height: 20%;
+    margin: 1rem;
+}
+.pContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p {
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+}
+.skillsheaderConatiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    font-family: 'dm sans', sans-serif;
+    color: white;
+}
+.list {
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.2rem;
+    list-style: none;
+    margin-left: 1rem;
+} 
+
+@media screen and (max-width: 500px) {
+    .pContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .pic {
+        width: 76%;
+        height: 50%;
+        margin: 1rem;
+        border-radius: 10px;
+    }
+    p {
+        color: white;
+        font-family: 'DM Sans', sans-serif;
+        font-size: 1rem;
+        text-align: center;
+        max-width: 400px;
+        margin-top: 20px;
+    
+    }
+    .skillsheaderConatiner{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 10vh;
+        font-family: 'dm sans', sans-serif;
+        color: white;
+        margin-top: 20px;
+    }
+    .list {
+        color: black;
+        font-family: 'DM Sans', sans-serif;
+        font-size: 1rem;
+        list-style: none;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        padding: 1rem;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+
+    }
+    li img{
+        display: block;
+        
+    }
+    .list1, .list2, .list3, .list4, .list5, .list6, .list7 {
+        margin: 1rem;
+        background-color: white;
+        border-radius: 3px;
+
+    }
+    .img1, .img2, .img3, .img4, .img5, .img6, .img7 {
+        width: 40px;
+        height: 40px;
+        margin: 1.5rem;
+
+    }
+  }

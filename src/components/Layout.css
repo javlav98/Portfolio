@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=DM+Sans&family=Gloria+Hallelujah&family=Orbitron&family=Play&family=Press+Start+2P&family=Righteous&family=Space+Mono&display=swap');
+
 .navBar {
     display: flex;
     justify-content: space-between;
@@ -6,15 +8,12 @@
     top: 0;
     z-index: 1;
     height: 60px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'DM Sans', sans-serif;
 }
 nav a {
-    color: #ffffff;
     text-decoration: none;
     font-size: 1.2rem;
-}
-nav a:hover {
-    color: #000;
+    color: #fff;
 }
 nav ul {
     display: flex;
